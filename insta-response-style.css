@@ -1,0 +1,430 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    padding: 0 20px;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: dimgrey;
+}
+
+.top-logo {
+    justify-content: flex-start;
+}
+
+.top-search {
+    justify-content: center;
+}
+
+.top-icons {
+    justify-content: flex-end;
+}
+
+
+
+
+#center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-up {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20px;
+}
+
+.profile-1 {
+    background-image: url('http://www.joseilbo.co.kr/gisa_img/1417063458.jpg');
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: 0px 100px 0px 70px;
+}
+
+.profile-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+.name h1 {
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 0px 20px 19px 0px;
+}
+
+button {
+    margin-bottom: 19px;
+    margin-right: 15px;
+}
+
+.name-icon {
+    padding-top: 5px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers h2 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0px 50px 0px 0px;
+}
+
+.info p {
+    font-weight: lighter;
+}
+
+.center-down {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 25px;
+}
+
+.center-down-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.center-down-1 {
+    background-image: url('https://thumb.mtstarnews.com/06/2015/08/2015082600414651775_1.jpg');
+    background-size: 77px 77px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: 10px 15px;
+}
+
+.center-down-2 {
+    background-image: url('https://thumb.mtstarnews.com/06/2015/08/2015082600414651775_1.jpg');
+    background-size: 77px 77px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: 10px 15px;
+}
+
+
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    border-width: 1px;
+    border-style: solid none none none;
+    border-color: lightsteelblue;
+}
+
+.bottom-nav-1 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-nav-1 p {
+    margin: 0px 20px 0px 5px;
+}
+
+.bottom-photos {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+}
+
+.bottom-photos-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+.bottom-photos-group-in {
+    width: 32%;
+}
+
+img.bottom-photos-in {
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 48px 0;
+}
+
+.footer-1-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: midnightblue;
+}
+
+.footer-1-content p {
+    margin: 0px 15px 0px 0px;
+}
+
+.footer-2 p {
+    font-size: 12px;
+    font-weight: bolder;
+    color: lightsteelblue;
+    margin: 0px;
+}
+
+@media(max-width: 768px) {
+    #container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 54px;
+        padding: 0 20px;
+        border-width: 1px;
+        border-style: none none solid none;
+        border-color: dimgrey;
+    }
+    
+    .top-logo {
+        justify-content: flex-start;
+    }
+    
+    .top-search {
+        display: none;
+    }
+    
+    .top-icons {
+        justify-content: flex-end;
+    }
+    
+
+    #center {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .center-up {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 25px;
+    }
+    
+    .profile-1 {
+        background-image: url('http://www.joseilbo.co.kr/gisa_img/1417063458.jpg');
+        background-size: 150px 150px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        margin: 0px 100px 0px 0px;
+    }
+    
+    .profile-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .name {
+        display: flex;
+        flex-direction: row;
+    }
+    .name h1 {
+        font-size: 28px;
+        font-weight: lighter;
+        margin: 0px 20px 19px 0px;
+    }
+    
+    button {
+        margin-bottom: 19px;
+        margin-right: 15px;
+    }
+    
+    .name-icon {
+        padding-top: 5px;
+    }
+    
+    .numbers {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .numbers h2 {
+        font-size: 16px;
+        font-weight: lighter;
+        margin: 0px 50px 0px 0px;
+    }
+    
+    .info p {
+        font-weight: lighter;
+    }
+    
+    .center-down {
+        display: flex;
+        flex-direction: row;
+        padding: 30px 10px;
+    }
+    
+    .center-down-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 125px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    
+    .center-down-1 {
+        background-image: url('https://thumb.mtstarnews.com/06/2015/08/2015082600414651775_1.jpg');
+        background-size: 77px 77px;
+        width: 77px;
+        height: 77px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        margin: 10px 15px;
+    }
+    
+    .center-down-2 {
+        background-image: url('https://thumb.mtstarnews.com/06/2015/08/2015082600414651775_1.jpg');
+        background-size: 77px 77px;
+        width: 77px;
+        height: 77px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        margin: 10px 15px;
+    }
+
+    #bottom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 60px;
+        border-width: 1px;
+        border-style: solid none none none;
+        border-color: lightsteelblue;
+    }
+    
+    .bottom-nav-1 {
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bottom-nav-1 p {
+        margin: 0px 20px 0px 5px;
+    }
+    
+    .bottom-photos {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .bottom-photos-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        width: 100%
+    }
+    
+    .bottom-photos-group-in {
+        width: 32%;
+    }
+
+    img.bottom-photos-in {
+        width: 100%;
+    }
+    
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 48px 0;
+    }
+    
+    .footer-1-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 5px;
+        margin-bottom: 30px;
+        font-size: 12px;
+        font-weight: bolder;
+        color: midnightblue;
+    }
+    
+    .footer-1-content p {
+        margin: 0px 15px 0px 0px;
+    }
+    
+    .footer-2 p {
+        font-size: 12px;
+        font-weight: bolder;
+        color: lightsteelblue;
+        text-align: center;
+        margin: 0px;
+    }
+}
